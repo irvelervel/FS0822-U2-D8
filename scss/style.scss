@@ -1,0 +1,6 @@
+@import 'reset';
+@import 'colors'; // <-- colors definisce 2 variabili
+@import 'variables';
+@import 'buttons'; // questo import mi incorpora dentro style.scss il partial _buttons.scss
+// questi file .scss possono limitarsi a importare gli stili definiti in dei partials
+// ma possono anche a loro volta dichiarare della sintassi scss al loro interno

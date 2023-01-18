@@ -1,0 +1,8 @@
+$pippo-multiplier: 6 !default;
+// questo valore di $pippo-multiplier verrà applicato alla variable SOLAMENTE
+// se non è già stata precedentemente dichiarata!
+
+// senza il flag !default questo nuovo valore verrebbe applicato a prescindere,
+// in quanto si trova in una linea di import successiva; ma, indicandolo come
+// !default eviterà di sovrascrivere il valore di $pippo-multiplier già dichiarato
+// nonstante questa nuova assegnazione avvenga successivamente
